@@ -31,7 +31,7 @@ How to install the simulator:
 
 2. Download package
 
-    https://github.com/arteaga7/tum_simulator.git
+    git clone https://github.com/arteaga7/tum_simulator.git
 
 3. Build the simulator
 
