@@ -23,8 +23,10 @@ How to install the simulator:
 
 2. Create a workspace for the simulator
 
-    mkdir -p ~/ardrone_simulator/src
-    cd  ~/ardrone_simulator/src
+    mkdir -p ~/tum_simulator/src
+    
+    cd  ~/tum_simulator/src
+    
     catkin_init_workspace
 
 2. Download package
