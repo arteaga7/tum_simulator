@@ -36,6 +36,7 @@ How to install the simulator:
 3. Build the simulator
 
     cd ..
+    
     catkin_make
 
 4. Source the environment
