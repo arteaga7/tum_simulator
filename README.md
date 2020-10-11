@@ -19,34 +19,34 @@ How to install the simulator:
 
 1. Install ardrone_autonomy package
 
-   sudo apt-get install ros-kinetic-ardrone-autonomy
+   $ sudo apt-get install ros-kinetic-ardrone-autonomy
 
 2. Create a workspace for the simulator
 
-    mkdir -p ~/tum_simulator/src
+    $ mkdir -p ~/tum_simulator/src
     
-    cd  ~/tum_simulator/src
+    $ cd  ~/tum_simulator/src
     
-    catkin_init_workspace
+    $ catkin_init_workspace
 
 2. Download package
 
-    git clone https://github.com/arteaga7/tum_simulator.git
+    $ git clone https://github.com/arteaga7/tum_simulator.git
 
 3. Build the simulator
 
-    cd ..
+    $ cd ..
     
-    catkin_make
+    $ catkin_make
 
 4. Source the environment
 
-    source devel/setup.bash
+    $ source devel/setup.bash
 
 How to run the simulation:
 
 1. Run a simulation by executing a launch file in cvg_sim_gazebo package:
 
-    roslaunch cvg_sim_gazebo ardrone_testworld.launch
+    $ roslaunch cvg_sim_gazebo ardrone_testworld.launch
 
 
